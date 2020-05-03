@@ -1,0 +1,164 @@
+header {
+  background-image: url("../img/bkg-banner.png");
+}
+
+div {
+  width: 90%;
+  clear: both;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #c6c5b9;
+  font-family: calibri, helvetica, arial, sans-serif;
+  font-size: 18pt;
+}
+
+img {
+  display: block;
+  margin: auto;
+  padding-top: 50px;
+}
+
+figure.right {
+    background-image: url("../img/bkg-abstract.png");
+  max-width: 50%;
+  float: right;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin #fff solid;
+  margin: 10px;
+  padding: 10px;
+}
+
+figure.left {
+  background-image: url("../img/bkg-abstract.png");
+  max-width: 50%;
+  float: left;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin #fff solid;
+  margin: 10px;
+  padding: 10px;
+}
+
+figure.center {
+  max-width: 50%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  margin: auto;
+  padding: 10px;
+}
+
+figcaption {
+  caption-side: bottom;
+  color: #52523c;
+  font-size: large;
+  font-family: fantasy;
+}
+
+figcaption.center {
+  caption-side: top;
+  color: #52523c;
+  font-size: larger;
+  font-family: fantasy;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+#logo {
+  background-color: inherit;
+  margin: 0px;
+  display: block;
+  border: 0px;
+}
+
+img.scaled {
+  width: 100%;
+}
+
+section {
+  font-size: 15pt;
+}
+
+section.left {
+  display: block;
+  max-width: 40%;
+  float: left;
+  margin: auto;
+  padding: 15px;
+}
+
+section.right {
+  display: block;
+  max-width: 40%;
+  float: right;
+  margin: auto;
+  padding: 15px;
+}
+
+section.right {
+  display: block;
+  max-width: 40%;
+  float: right;
+  margin: auto;
+  padding: 15px;
+}
+
+#home {
+  display: block;
+  width: 100%;
+  max-width: 70%;
+  float: right;
+  margin: auto;
+  padding: 15px;
+}
+
+h1 {
+  font-family: serif;
+  color: #52523c;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+nav li {
+  border: 3px double #3d5a66;
+  background-color: #4a6d7c;
+  line-height: 50px;
+  height: 50px;
+  width: 250px;
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: #dfdfd8;
+  display: block;
+}
+
+nav a:hover {
+  background-color: #9bb9c1;
+  color: #3d5a66;
+}
+
+nav li.active {
+  background-color: #818166;
+  border: 3px double #393a10;
+}
+
+li:visited {
+  background-color: #0f0;
+  border: 3px double #393a10;
+}

@@ -1,0 +1,41 @@
+
+.jumbotron {
+   background-image: url("../img/logo.png");
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-color: #dcf4c4;
+}
+
+.display-4, .small, .mb-4 {
+ margin-left: 350px;
+}
+
+.jumbotron.home {
+  background-image: url("../img/bkg-banner.png");
+  background-repeat: no-repeat;
+}
+
+body {
+  background-color: #ddd !important;
+}
+
+.mt-5, .lead, .mb-0 {
+ margin-left: 50px;
+}
+
+.img-thumbnail {
+  max-width: 200px;
+}
+
+.card-header {
+  background-color: #abd77f;
+}
+
+.card-body {
+  background-color: #eee;
+}
+
+.rounded {
+  background-color: #dcf4c4;
+  padding: 10px;
+}
